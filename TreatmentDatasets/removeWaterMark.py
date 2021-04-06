@@ -51,6 +51,17 @@ class RmWaterMark():
         else:
             raise ValueError("Mode paragram is wrong, 'all','before' or 'after'")
 
+    def save(self, rootPath):
+        """
+        save the image after dealed
+
+        :param rootPath: the filepath to save finished picture
+        :type rootPath: str
+        """
+        pass
+    def get_result(self):
+        return self.specular
+        
 
 if __name__ == '__main__':
     img = cv2.imread("./1000011.jpg")
