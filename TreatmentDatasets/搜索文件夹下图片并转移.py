@@ -6,7 +6,7 @@ import os
 import shutil
 
 beforedir = os.getcwd()
-int count = 0 
+count = 0 
 
 def dir(way):
     picture = ["jpg", "jpeg"]
